@@ -1,12 +1,15 @@
 // @ts-check
 const { LandingPage } = require('../pages/LandingPage')
+const {Toast} = require('../pages/Components')
 const { test, expect } = require('@playwright/test');
 const { openAsBlob } = require('fs');
 
 let landingPage
+let toast
 
 test.beforeEach(async({page})=>{
   landingPage = new LandingPage(page)
+  toast = new Toast(page)
 
 
 })
@@ -19,9 +22,7 @@ test('deve cadastrar um lead na fila de espera', async ({ page }) => {
   await landingPage.subitLeadForm('Pedro Franco','pedro.r.franco90@gmail.com')
 
   const message = 'Agradecemos por compartilhar seus dados conosco. Em breve, nossa equipe entrará em contato!'
-
-  await landingPage.toastHaveText(message)
-
+  await toast.haveText(message)
 
 });
 
