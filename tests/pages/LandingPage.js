@@ -28,7 +28,7 @@ async subitLeadForm(name,email){
 
 async toastHaveText(message){
     await expect(this.page.locator('.toast')).toHaveText(message)
-    await expect(this.page.locator('.toast')).toBeHidden({timeout: 5000})
+    await expect(this.page.locator('.toast')).not.toBeVisible({timeout: 5000})
 }
 
 async alertHaveText(target){
