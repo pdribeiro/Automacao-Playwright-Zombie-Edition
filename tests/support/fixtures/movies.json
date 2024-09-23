@@ -1,0 +1,83 @@
+[
+    {
+      "title": "Guerra Mundial Z",
+      "overview": "Um ex-investigador da ONU é chamado para ajudar a conter uma pandemia zumbi que está se espalhando pelo mundo.",
+      "company": "Paramount Pictures",
+      "release_year": 2013,
+      "featured": false,
+      "cover": "caminho/para/capa/guerra_mundial_z.png"
+    },
+    {
+      "title": "Extermínio",
+      "overview": "Um vírus devastador transforma a maioria da população em zumbis violentos, enquanto um grupo de sobreviventes luta pela sobrevivência.",
+      "company": "20th Century Fox",
+      "release_year": 2002,
+      "featured": false,
+      "cover": "caminho/para/capa/exterminio.png"
+    },
+    {
+      "title": "A Noite dos Mortos-Vivos",
+      "overview": "Um grupo de pessoas se refugia em uma casa durante um apocalipse de zumbis.",
+      "company": "Image Ten",
+      "release_year": 1968,
+      "featured": false,
+      "cover": "caminho/para/capa/a_noite_dos_mortos_vivos.png"
+    },
+    {
+      "title": "Zumbilândia",
+      "overview": "Uma comédia sobre um grupo de sobreviventes de um apocalipse zumbi enquanto seguem em busca de sobrevivência.",
+      "company": "Columbia Pictures",
+      "release_year": 2009,
+      "featured": false,
+      "cover": "caminho/para/capa/zumbilandia.png"
+    },
+    {
+      "title": "O Hospedeiro",
+      "overview": "Uma criatura mutante emerge do rio Han e sequestra uma jovem, enquanto seu pai luta para resgatá-la.",
+      "company": "Showbox",
+      "release_year": 2006,
+      "featured": false,
+      "cover": "caminho/para/capa/o_hospedeiro.png"
+    },
+    {
+      "title": "A Estrada",
+      "overview": "Um pai e seu filho viajam por um mundo pós-apocalíptico repleto de zumbis e outros perigos.",
+      "company": "Dimension Films",
+      "release_year": 2009,
+      "featured": false,
+      "cover": "caminho/para/capa/a_estrada.png"
+    },
+    {
+      "title": "Rec",
+      "overview": "Uma repórter e seu câmera ficam presos em um prédio em quarentena durante uma epidemia zumbi.",
+      "company": "Filmax",
+      "release_year": 2007,
+      "featured": false,
+      "cover": "caminho/para/capa/rec.png"
+    },
+    {
+      "title": "Cidade dos Mortos",
+      "overview": "Uma história de zumbis se desenrola em uma cidade pequena onde o caos toma conta.",
+      "company": "Cinemax",
+      "release_year": 2005,
+      "featured": false,
+      "cover": "caminho/para/capa/cidade_dos_mortos.png"
+    },
+    {
+      "title": "Despertar dos Mortos",
+      "overview": "Um grupo de sobreviventes se refugia em um shopping center após a epidemia zumbi.",
+      "company": "Universal Pictures",
+      "release_year": 2004,
+      "featured": false,
+      "cover": "caminho/para/capa/despertar_dos_mortos.png"
+    },
+    {
+      "title": "O Dia dos Mortos",
+      "overview": "Após um apocalipse zumbi, os últimos sobreviventes tentam encontrar um meio de contornar a situação.",
+      "company": "United Film Distribution Company",
+      "release_year": 1985,
+      "featured": false,
+      "cover": "caminho/para/capa/o_dia_dos_mortos.png"
+    }
+  ]
+  
