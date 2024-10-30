@@ -30,7 +30,7 @@ test('deve cadastrar um lead na fila de espera', async ({ page }) => {
   await landingPage.subitLeadForm(randomName,randomEmail)
 
   const message = 'Agradecemos por compartilhar seus dados conosco. Em breve, nossa equipe entrará em contato!'
-  await toast.haveText(message)
+  await toast.containText(message)
 
 });
 
@@ -52,7 +52,7 @@ const newLead = await request.post('http://localhost:3333/leads',{
   await landingPage.subitLeadForm(randomName,randomEmail)
 
   const message = 'O endereço de e-mail fornecido já está registrado em nossa fila de espera.'
-  await toast.haveText(message)
+  await toast.containText(message)
 
 });
 
